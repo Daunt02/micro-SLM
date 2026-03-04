@@ -1,0 +1,26 @@
+{
+  "name": "micro-miniSLM",
+  "version": "0.1.0",
+  "description": "micro MiniSLM",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^17.3.1",
+    "fastify": "^5.7.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.29",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
